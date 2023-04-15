@@ -3,3 +3,5 @@ if status is-interactive
 end
 
 abbr -a pc proxychains4
+abbr -a gc git clone
+abbr -a cg cargo r

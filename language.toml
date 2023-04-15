@@ -1,0 +1,5 @@
+[[language]]
+name = "protobuf"
+file-types = ["proto"]
+auto-format = true
+formatter = { command = "clang-format"}

@@ -60,7 +60,8 @@ window:
   # Values for `decorations` (macOS only):
   #     - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background and no title bar buttons
-  decorations: none
+  # decorations: none
+  decorations: buttonless
 
   # Startup Mode (changes require restart)
   #
@@ -95,7 +96,7 @@ window:
 scrolling:
   # Maximum number of lines in the scrollback buffer.
   # Specifying '0' will disable scrolling.
-  history: 0
+  history: 8000
 
   # Scrolling distance multiplier.
   #multiplier: 3
@@ -149,7 +150,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  #size: 11.0
+  size: 16.0
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
